@@ -1,0 +1,30 @@
+--------->>: Form validation
+
+1: Client-side validation:
+
+* checks errors as text is typed in form.
+* done through JS.
+
+
+2: Server-side validation: 
+
+* form data received by web server, backend validates data before processing.
+
+
+
+
+---------->>: 2 ways, form can send data to server
+
+1: Get: 
+
+* data appended at end of http url.
+# 3 problems:
+1-- URl length limited by browser.
+2-- URl length limited by server.
+3-- Security threats.
+
+2: Post:
+
+* form data inserted into content of http request.
+* more secure than get method.
+* HTTPS used for complete security in which only sender and receiver can understand data.

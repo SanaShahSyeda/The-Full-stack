@@ -1,0 +1,109 @@
+------------->> CSS web layouts
+
+* Display----:  
+
+* property that defines teh type of box you want to use.
+* it specifies the rendered box is Inline or Block.
+* added flexibility and dimensionality.
+
+
+
+* Flexbox----:
+
+* 1 dimensional(arrange items in either column or row).
+* adds responsiveness with float elements and positioning.
+* suitable for small scale.
+* 3 uses in HTML
+1: search bar.
+2: navigation bar.
+3: image gallery.
+
+
+
+* Grid-------:
+
+* 2 dimensional(arrange items in both column & row).
+* it increases dimensionality. 
+* suitable for large scale.
+
+
+
+
+
+------------->> CSS selectors
+
+
+* Element/ type selectors-----:
+
+* ID selector -----: use ID attribute.
+
+* Attribute selector ------: the value/attribute of an element is matched.
+
+* nth-of-type selector ------:
+
+* nth-child selector -----: 
+
+* star selectors ------: selecting all elements of web page.
+
+* Group selectors / selector stacking -----: 
+
+
+
+
+
+---------------->> Absolute unit
+
+* Absolute units are constant across different devices and have a fixed size. They are useful for activities like printing a page. They are not so suitable when it comes to the wide variety of devices in use today that have different viewport sizes. Because of this, absolute units are used when the size of the web page is known and will remain constant. 
+
+
+
+---------------->> Relative values.
+
+* Relative values are defined ‘in relation’ to the other elements present inside the parent element. Additionally, they are defined ‘in relation’ to the viewport or the size of the visible web page. Given the dynamic nature of web pages today and the variable size of devices in use, relative units are the go-to option in many cases.
+
+
+em   Font size of the parent where present.
+
+ex   x-co-ordinate or height of the font element.
+
+ch   Width of the font character.
+
+rem  Font size of the root element.
+
+lh   Value computed for line height of parent element. 
+
+rlh  Value computed for line height of root element which is <html>. 
+
+vw   1% of the viewport width.
+
+vh   1% of the viewport height.
+
+vmin  1% of the smaller dimension of viewport.
+
+vmax  1% of the larger dimension of viewport.
+
+%     Denotes a percentage value in relation to its parent element. 
+
+
+
+
+
+
+------------------->> Block level elements
+
+* takes entire space of parent and its total heigth.
+
+* a blank line before and after the element.
+
+* Example: div, form, heading.
+
+
+
+
+-------------------->> Inline elements
+
+* appears on same line and doesn't take full space of parent element.
+
+* Example: a, img, input, label, b, i, em, and span.
+
+
