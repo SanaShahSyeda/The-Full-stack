@@ -1,0 +1,6 @@
+----------->> Django
+
+* It is used to build backend web applications.
+* Pros---> Fast, Feature-rich, secure and scalable.
+* MVT model (Data, Logic and Display).
+* 

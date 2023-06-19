@@ -107,3 +107,40 @@ vmax  1% of the larger dimension of viewport.
 * Example: a, img, input, label, b, i, em, and span.
 
 
+
+
+--------------------->> Specificity hierarchy
+CSS has a set of rules that it uses to ‘score’ or assign a certain weight to selectors and this creates a specificity hierarchy. Based on the weights, there are four categories in this hierarchy: 
+
+Inline styles 
+
+IDs 
+
+Classes, attributes, and pseudo-classes 
+
+Elements and pseudo-elements 
+
+
+
+
+
+-------------------->> Pseudo selectors
+
+* user-action states:
+1: hover
+2: active
+3: focus
+
+* form-states:
+1: disabled and enabled.
+2: checked and indeterminate.
+3: valid and invalid.
+
+* specific position-based states:
+1: first-of-type.
+2: last-of-type.
+3: nth-of-type()
+4: nth-last-of-type()
+
+
+
